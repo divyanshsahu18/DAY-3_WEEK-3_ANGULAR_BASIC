@@ -1,0 +1,6 @@
+<p>Hello, {{ name }}</p>
+<p>Favorite Color: {{ color }}</p>
+
+<button [style.background-color]="color" (click)="changeColor()" class="hover-button">Change Color</button>
+<app-nested [nestedData]="color"></app-nested>
+

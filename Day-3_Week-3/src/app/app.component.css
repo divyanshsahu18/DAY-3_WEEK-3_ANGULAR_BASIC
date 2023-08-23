@@ -1,0 +1,14 @@
+/* Apply hover effect to navbar links */
+.navbar-nav .nav-item .nav-link {
+    color: #35556d; /* Default link color */
+    border-radius: 0; /* Reset border radius */
+    transition: color 0.3s, background-color 0.3s, border-radius 0.3s;
+    padding: 10px 15px; /* Add padding around the links */
+    margin: 0 5px; /* Add smooth transition */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #fff; /* Change link color on hover */
+    background-color: #2a6283; /* Change background color on hover */
+    border-radius: 15px; /* Add rounded border on hover */
+}

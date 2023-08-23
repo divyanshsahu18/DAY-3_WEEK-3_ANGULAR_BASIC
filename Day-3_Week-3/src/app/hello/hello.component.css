@@ -1,0 +1,12 @@
+/* Apply styles to the "Change Color" button */
+.hover-button {
+    font-size: 16px; /* Increase font size */
+    padding: 12px 20px; /* Add padding to make it larger */
+    border-radius: 20px; /* Add border-radius to make it round */
+    transition: background-color 0.3s, color 0.3s; /* Add smooth transition */
+}
+
+.hover-button:hover {
+    background-color: #555; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}
